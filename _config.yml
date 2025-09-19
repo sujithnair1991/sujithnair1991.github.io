@@ -1,6 +1,6 @@
 # Jekyll Configuration for GitHub Pages
-title: Your Name - Portfolio
-description: Personal portfolio and resume website hosted on GitHub Pages
+title: Sujith Nair - Data Analytics Professional
+description: Personal portfolio and resume website showcasing data analytics and business intelligence expertise
 url: "https://sujithnair1991.github.io"
 
 # Theme Configuration
@@ -11,12 +11,12 @@ show_downloads: false
 
 # Social Media Links
 github_username: sujithnair1991
-linkedin_username: yourprofile
-email: your.email@example.com
+linkedin_username: sujithnairdfw
+email: sujithnair1991@gmail.com
 
 # SEO and Social
 lang: en
-author: Your Name
+author: Sujith Nair
 
 # Markdown settings
 markdown: kramdown
@@ -34,4 +34,3 @@ plugins:
 exclude:
   - Gemfile
   - Gemfile.lock
-  - README.md
