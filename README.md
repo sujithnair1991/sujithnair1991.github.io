@@ -1,136 +1,100 @@
-# Your Name
+# Sujith Nair
 
-**Software Engineer | Full Stack Developer**
+**Data Analytics Professional | Business Intelligence Specialist**
 
-📧 your.email@example.com | 🔗 [LinkedIn](https://linkedin.com/in/yourprofile) | 📍 Your City, State | 📱 (555) 123-4567
+📧 sujithnair1991@gmail.com | 🔗 [LinkedIn](https://www.linkedin.com/in/sujithnairdfw/) | 📍 Dallas, TX, USA | 📱 +1 469 380 2630
 
 ---
 
-## About Me
+## Summary
 
-Passionate and results-driven software engineer with [X] years of experience in full-stack development, specializing in modern web technologies and scalable applications. Proven track record of delivering high-quality solutions and collaborating effectively in agile environments.
+I am an experienced IT and analytics professional with a strong academic foundation in engineering and data science. My 7+ years of industry experience span roles in data engineering, analytics, and business intelligence across India and the US. I hold a Bachelor's degree in Electronics & Communication Engineering and a Master's in Business Analytics from the University of Texas at Dallas. My academic and professional journey reflects my interest in project-driven environments, which motivates me to pursue a Master's in IT Project Management at AUT.
 
 ---
 
 ## Education
 
-### [Degree Name] in [Field of Study]
-**[University Name]** | *[Graduation Year]*
-- GPA: [X.XX/4.00] (if notable)
-- Relevant Coursework: [Course 1], [Course 2], [Course 3]
-- Activities: [Clubs, Organizations, etc.]
+### Master of Science in Business Analytics
+**University of Texas at Dallas** | *July 2018 - May 2020*
+- GPA: 3.95/4.00
+- Focus: Advanced analytics, data science, and business intelligence
+- Relevant Coursework: Statistical Analysis, Machine Learning, Data Mining, Business Intelligence
+
+### Bachelor of Engineering in Electronics and Communication
+**Anna University** | *July 2010 - May 2014*
+- GPA: 7.67/10.00
+- Focus: Engineering fundamentals with emphasis on systems and technology
 
 ---
 
 ## Professional Experience
 
-### Software Engineer | [Company Name]
-*[Start Date] - Present*
+### Senior Product Analyst | Root Insurance
+**Dallas, TX, US** | *Jan 2021 – May 2024*
+- Delivered $116K in savings and 25% higher ROAS by replacing an external attribution vendor with an in-house model using open-source tools
+- Built Tableau dashboards and A/B tests to analyse and produce insights with an external partner, improving conversion rates from 5% to 15%
+- Developed a predictive retention model that forecasted an 8% improvement in 180-day customer retention
+- Managed $2M+ in monthly agency commission payouts, streamlining internal workflows
+- Automated SQL and Python-based data extraction pipelines to support analytics workflows
 
-- Developed and maintained [type of applications] serving [number] users
-- Implemented [specific technology/feature] resulting in [quantifiable impact]
-- Collaborated with cross-functional teams to deliver [project/feature]
-- Optimized application performance, improving [metric] by [percentage]
-- Mentored junior developers and conducted code reviews
+### Data Analyst (Contract) | Neiman Marcus Group
+**Dallas, TX, US** | *Oct 2020 – Jan 2021*
+- Analysed campaign and product data to inform pricing and merchandising decisions
+- Delivered actionable insights to support marketing and promotional strategy
 
-### [Previous Role] | [Company Name]
-*[Start Date] - [End Date]*
+### Data Analytics Intern | Essilor
+**Dallas, TX, US** | *May 2019 – Dec 2019*
+- Cleaned and visualised customer data using SQL and Tableau; resolved 150+ data integrity issues
+- Increased same-day issue resolution from 12% to 36% through automation and diagnostics
 
-- Built responsive web applications using [technologies]
-- Integrated RESTful APIs and managed database operations
-- Participated in agile development processes and sprint planning
-- Contributed to [number] successful product releases
-- Implemented automated testing, increasing code coverage by [percentage]
-
-### [Earlier Role] | [Company Name]
-*[Start Date] - [End Date]*
-
-- Developed [type of features/applications] using [technologies]
-- Collaborated with designers to implement pixel-perfect UI/UX
-- Troubleshot and resolved production issues
-- Participated in code reviews and maintained coding standards
+### Senior Systems Engineer | Infosys
+**Pune, MH, India** | *Jul 2014 – Apr 2018*
+- Managed ETL and Business Intelligence reporting for a global banking client using PL/SQL, Informatica, and Excel
+- Supervised a 3-person offshore team to deliver scalable analytics and dashboarding solutions
+- Conducted workshops and collaborated with stakeholders to define project specifications
 
 ---
 
-## Skills & Technologies
+## Career Break
 
-### Programming Languages
-- **Proficient:** JavaScript, Python, TypeScript, Java
-- **Familiar:** C++, Go, PHP
-
-### Frontend Technologies
-- **Frameworks/Libraries:** React, Vue.js, Angular, Next.js
-- **Styling:** CSS3, SASS/SCSS, Tailwind CSS, Bootstrap
-- **Tools:** Webpack, Vite, Babel
-
-### Backend Technologies
-- **Frameworks:** Node.js, Express.js, Django, Spring Boot
-- **Databases:** PostgreSQL, MongoDB, MySQL, Redis
-- **APIs:** REST, GraphQL, WebSocket
-
-### Cloud & DevOps
-- **Cloud Platforms:** AWS, Google Cloud Platform, Azure
-- **Containerization:** Docker, Kubernetes
-- **CI/CD:** GitHub Actions, Jenkins, GitLab CI
-- **Monitoring:** DataDog, New Relic, CloudWatch
-
-### Development Tools
-- **Version Control:** Git, GitHub, GitLab
-- **IDEs:** VS Code, IntelliJ IDEA, WebStorm
-- **Testing:** Jest, Cypress, Selenium, Mocha
-- **Project Management:** Jira, Trello, Asana
+### Personal & Professional Development
+**Dallas, TX, US** | *May 2024 - Present*
+- After concluding my role at Root Insurance, I chose to take time off to reflect on career direction, support my family, and evaluate future professional and study opportunities
+- Transitioned to dependent visa status (H-4) in the U.S.
+- Consulted on pricing strategy and go-to-market approaches with Shriddhi Oils - a family-owned wellness startup in Kerala, India
 
 ---
 
-## Featured Projects
+## Skills & Tools
 
-### [Project Name 1]
-[Brief description of the project and its purpose]
-- **Tech Stack:** [Technologies used]
-- **Key Features:** [Feature 1], [Feature 2], [Feature 3]
-- **Links:** [🔗 Live Demo](https://example.com) | [📂 GitHub](https://github.com/username/repo)
+### Project Management & Leadership
+- Cross-functional collaboration
+- Stakeholder communication
+- Vendor coordination
+- Team supervision and mentoring
 
-### [Project Name 2]
-[Brief description of the project and its purpose]
-- **Tech Stack:** [Technologies used]
-- **Key Features:** [Feature 1], [Feature 2], [Feature 3]
-- **Links:** [🔗 Live Demo](https://example.com) | [📂 GitHub](https://github.com/username/repo)
+### Technical Skills
+- **Languages & Tools**: SQL, Python, R, Tableau, Power BI, Excel (Advanced)
+- **Analytics & Modeling**: A/B Testing, Forecasting, Customer Segmentation, Regression, Predictive Modeling
+- **Marketing & Financial**: ROI Modeling, Retention Analysis, Pricing Optimization, Commission Analysis
+- **Platforms**: Snowflake, Oracle PL/SQL, Informatica, Mode Analytics
 
----
-
-## Certifications & Achievements
-
-- [Certification Name] - [Issuing Organization] ([Year])
-- [Achievement/Award] - [Organization] ([Year])
-- [Publication/Conference] - [Details] ([Year])
+### Core Competencies
+- Business Intelligence & Data Warehousing
+- Data Visualization & Dashboard Development
+- Statistical Analysis & Machine Learning
+- ETL Pipeline Development & Automation
+- Performance Optimization & Cost Reduction
 
 ---
 
 ## Let's Connect!
 
-- 💼 [LinkedIn](https://linkedin.com/in/yourprofile)
-- 🐙 [GitHub](https://github.com/yourusername)
-- 📧 [Email](mailto:your.email@example.com)
-- 🌐 [Personal Website](https://yourwebsite.com)
-- 📝 [Blog/Portfolio](https://yourblog.com)
+- 💼 [LinkedIn](https://www.linkedin.com/in/sujithnairdfw/)
+- 🐙 [GitHub](https://github.com/sujithnair1991)
+- 📧 [Email](mailto:sujithnair1991@gmail.com)
+- 📍 Dallas, TX, USA
 
 ---
 
-## How to Edit This Template
-
-1. **Replace placeholder content** with your actual information
-2. **Update the header** with your name, title, and contact information
-3. **Customize the About section** to reflect your background and goals
-4. **Add your education** details, including relevant coursework and activities
-5. **Fill in your work experience** in reverse chronological order with specific achievements
-6. **Update skills sections** to match your technical expertise
-7. **Add your projects** with descriptions, tech stacks, and links
-8. **Include certifications** and any notable achievements
-9. **Update contact links** in the footer section
-10. **Remove this section** once you're done editing!
-
-> 💡 **Tip:** Use GitHub's preview feature to see how your README looks before committing changes. You can also enable GitHub Pages in repository settings to turn this into a live website.
-
----
-
-*This portfolio is hosted on GitHub Pages. Feel free to fork this repository and create your own!*
+*This portfolio showcases my professional journey in data analytics and business intelligence. I'm passionate about leveraging data-driven insights to solve complex business problems and drive strategic decision-making.*
