@@ -7,6 +7,8 @@ title: Sujith Nair - Data Analytics Professional
 
 **Data Analytics Professional | Business Intelligence Specialist**
 
+🔗 [Portfolio](https://sujithnair1991.github.io/)
+
 📧 sujithnair1991@gmail.com | 🔗 [LinkedIn](https://www.linkedin.com/in/sujithnairdfw/) | 📍 Dallas, TX, USA | 📱 +1 469 380 2630
 
 ---
