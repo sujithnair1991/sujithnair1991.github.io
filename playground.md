@@ -46,7 +46,7 @@ title: Sujith Nair - Data Analytics Professional
   <a href="#about" class="nav-box">About</a>
   <a href="#projects" class="nav-box">Projects</a>
   <a href="#contact" class="nav-box">Contact</a>
-  <a href="index.md" class="nav-box">Resume</a>
+  <a href="https://sujithnair1991.github.io/" class="nav-box">Resume</a>
 </div>
 
 # Sujith Nair
