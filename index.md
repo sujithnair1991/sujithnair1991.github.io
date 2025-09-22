@@ -18,7 +18,7 @@ I am an experienced IT and analytics professional with a strong academic foundat
 
 ## Education
 
-### Master of Science in Business Analytics
+### [Master of Science in Business Analytics](msba-details.md)
 **University of Texas at Dallas** | *July 2018 - May 2020*
 
 - GPA: 3.95/4.00
@@ -30,12 +30,6 @@ I am an experienced IT and analytics professional with a strong academic foundat
 
 - GPA: 7.67/10.00
 - Focus: Engineering fundamentals with emphasis on systems and technology
-
----
-
-## Academic Projects
-
-- **Master of Science in Business Analytics (UT Dallas)** – [View Details](msba-details.md)
 
 ---
 
