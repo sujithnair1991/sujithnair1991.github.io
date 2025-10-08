@@ -32,6 +32,12 @@
         .pdf-button:hover {
             background-color: #0860ca;
         }
+        @media print {
+            .pdf-button { display: none; }
+            body { margin: 0; padding: 15px; font-size: 12px; }
+            h1 { font-size: 20px; }
+            h2 { font-size: 16px; page-break-after: avoid; }
+        }
         h1 {
             color: #24292f;
             border-bottom: 1px solid #d1d9e0;
@@ -69,11 +75,27 @@
             font-size: 0.9em;
         }
     </style>
+    <script>
+        function downloadPDF() {
+            // Hide the button during print
+            const button = document.querySelector('.pdf-button');
+            const originalDisplay = button.style.display;
+            button.style.display = 'none';
+            
+            // Trigger browser print dialog (user can save as PDF)
+            window.print();
+            
+            // Restore button after print dialog closes
+            setTimeout(() => {
+                button.style.display = originalDisplay;
+            }, 1000);
+        }
+    </script>
 </head>
 <body>
     <div class="header">
         <h1>Sujith Nair</h1>
-        <button class="pdf-button" onclick="window.open('index.pdf','_blank')">📄 Download PDF</button>
+        <button class="pdf-button" onclick="downloadPDF()">📄 Download PDF</button>
         <div class="contact-info">
             <a href="mailto:sujithnair1991@gmail.com">sujithnair1991@gmail.com</a>
             <a href="https://linkedin.com/in/sujithnair1991" target="_blank">LinkedIn</a>
