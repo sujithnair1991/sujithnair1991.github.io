@@ -1,115 +1,106 @@
-# Sujith Nair
-**Data Analytics Professional**
+# SUJITH NAIR
+**Data Analyst Intern**
 
 ---
 
-## Profile
+## DETAILS
 
-Experienced IT and analytics professional with 7+ years of expertise in data engineering, analytics, and business intelligence across India and the US. Strong academic foundation combining engineering and data science with proven track record of delivering measurable business impact through data-driven insights and process optimization.
-
----
-
-## Details
-
-**Location:** Dallas, TX, USA  
-**Phone:** +1 469 380 2630  
-**Email:** sujithnair1991@gmail.com
+- **Email:** sujithnair1991@gmail.com
+- **Work Authorization:** Authorized to work up to 25 hours per week in New Zealand on a student visa
 
 ---
 
-## Links
+## LINKS
 
 - [LinkedIn](https://www.linkedin.com/in/sujithnairdfw/)
-- [GitHub](https://github.com/sujithnair1991)
+- [Email](mailto:sujithnair1991@gmail.com)
+- [Github](https://github.com/sujithnair1991)
 
 ---
 
-## Skills
+## SKILLS
 
-### Technical Skills
-- **Programming Languages:** Python, SQL, R, SAS
-- **Data Visualization:** Tableau, Power BI, Looker
-- **Databases:** MySQL, PostgreSQL, Oracle, MongoDB
-- **Cloud Platforms:** AWS (S3, Redshift, Lambda), Azure
-- **Big Data Tools:** Spark, Hadoop, Hive
-- **Analytics Tools:** Excel, Google Analytics, SPSS
+- SQL
+- Segmentation & Customer Insights
+- Excel & Google Sheets (Pivot Tables, Lookups, Modeling)
+- Data Visualization & Storytelling
+- Attribution Modelling
+- A/B Testing & Experiment Design
 
-### Business Skills
-- Data Analytics & Business Intelligence
-- Statistical Analysis & Modeling
-- Process Optimization
-- Stakeholder Management
+---
+
+## PROFILE
+
+Analytical and results-driven Data Analyst with experience across marketing, product, and partnerships. Skilled in uncovering insights that drive measurable business outcomes. Excelled at improving conversion rates and marketing efficiency through segmentation, pricing analysis, and data modeling. Passionate about turning complex data into clear, actionable stories that influence decision-making.
+
+---
+
+## EDUCATION
+
+### Masters in IT Project Management
+**Auckland University of Technology** | Auckland  
+*Feb 2026 — Present*
+
+Currently pursuing a Master's focused on IT strategy, project delivery, and data-driven decision-making.
+
+### Masters in Business Analytics
+**University of Texas at Dallas** | Dallas, US  
+*Aug 2018 — May 2020*
+
+Graduated with a GPA of 3.8 / 4.0; Specialized in Marketing Analytics
+
+---
+
+## CAREER BREAK
+
+**Jun 2024 — Dec 2025**  
+*Professional Development & Realignment*
+
+Used this period to realign career goals, contribute to a small family business, and explore opportunities abroad while maintaining and updating analytical skills.
+
+---
+
+## SKILLS
+
+- ETL using Informatica, PL/SQL and AWS Redshift
+- Python and R Coding
 - Project Management
-- Strategic Planning
+- Statistical Analysis & Forecasting
+- Master Data Management
+- Git/Version Control
 
 ---
 
-## Education
+## HOBBIES
 
-### Master of Science in Data Science
-**University of Texas at Dallas**  
-*August 2021 - May 2023*  
-- GPA: 3.8/4.0
-- Relevant Coursework: Machine Learning, Big Data Analytics, Statistical Methods
-
-### Bachelor of Technology in Computer Science
-**APJ Abdul Kalam Technological University**  
-*August 2009 - May 2013*  
-- First Class with Distinction
-- Focus: Software Engineering, Database Systems, Algorithms
+- Creating Google Sheets to help friends and family make financial decisions, including rent versus buy Home, investing versus paying off loans, and planning for financial freedom
+- Analyzing Fantasy Premier League data and trends, sharing insights to support the football fantasy community and build collaborative discussions
 
 ---
 
-## Career Break
+## EMPLOYMENT HISTORY
 
-**May 2023 - Present**  
-*Professional Development & Transition*
+### Product Analyst
+**Root Insurance** | Dallas, US  
+*Jan 2021 — May 2024*
 
-- Completed advanced certifications in AWS and Tableau
-- Worked on personal data analytics projects and portfolio development
-- Stayed current with emerging technologies and industry trends
-- Actively seeking opportunities to leverage analytics expertise in a challenging role
+- Delivered 25% higher incremental ROAS and $116K in savings by replacing external attribution vendor with an in-house marketing performance model using open-source tools
+- Designed and built Tableau dashboards to visualize funnel trends, marketing spend, and customer behavior across channels
+- Partnered with product, pricing, and marketing teams to run A/B tests and identify drivers of attach rate improvement from 5% to 15%
+- Reported insights and recommendations to senior leadership to guide campaign strategy and customer segmentation decisions
+- Managed monthly commission processing for 10 agencies, overseeing $2M+ in payouts and streamlining operational workflows
 
----
+### Data Analyst Intern
+**Essilor** | Dallas, US  
+*May 2020 — Dec 2020*
 
-## Employment History
+- Built Tableau dashboards to clean and consolidate SAP Customer Master Data, resolving 150+ issues across 6,300 records
+- Developed SQL-based root cause analysis tools, improving same-day issue resolution from 12% to 36%
 
-### Data Analyst
-**Tata Consultancy Services** | Dallas, TX  
-*January 2020 - July 2021*
+### System Engineer
+**Infosys** | Pune, India  
+*Jul 2014 — Mar 2018*
 
-- Developed automated reporting dashboards using Tableau, reducing report generation time by 60%
-- Performed statistical analysis on customer data to identify trends and patterns, supporting strategic decision-making
-- Collaborated with cross-functional teams to define KPIs and metrics for business performance tracking
-- Created ETL pipelines to integrate data from multiple sources into centralized data warehouse
-- Presented data-driven insights to senior leadership, influencing product roadmap decisions
-
-### Business Intelligence Analyst
-**Infosys Limited** | Bangalore, India  
-*July 2015 - December 2019*
-
-- Designed and implemented BI solutions using SQL Server and Power BI for retail client
-- Analyzed sales data to identify revenue optimization opportunities, resulting in 15% increase in quarterly sales
-- Developed predictive models for inventory management, reducing stockouts by 25%
-- Led requirements gathering sessions with business stakeholders to understand analytics needs
-- Mentored junior analysts on best practices in data modeling and visualization
-
-### Associate Software Engineer
-**Wipro Technologies** | Kochi, India  
-*June 2013 - June 2015*
-
-- Developed database queries and stored procedures to support application functionality
-- Participated in full software development lifecycle including design, coding, testing, and deployment
-- Created technical documentation and user guides for software applications
-- Collaborated with QA team to identify and resolve defects
-- Provided production support and troubleshooting for enterprise applications
-
----
-
-## Hobbies
-
-- **Data Visualization:** Creating interactive dashboards and infographics for personal projects
-- **Technology Blog:** Writing about data analytics trends and tutorials
-- **Photography:** Landscape and street photography
-- **Hiking:** Exploring trails in the Dallas-Fort Worth area
-- **Reading:** Technology books and business strategy publications
+- Worked with a leading US Bank - Wells Fargo - on a client project, focusing on ETL development, data integration, and quality assurance
+- Gained hands-on experience with SQL, PL/SQL, and Informatica to build and maintain data pipelines supporting reporting and analytics
+- Collaborated with cross-functional teams to troubleshoot production issues and improve data accuracy across multiple systems
