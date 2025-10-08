@@ -1,137 +1,181 @@
----
-layout: default
-title: Sujith Nair - Data Analytics Professional
----
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sujith Nair – Data Analyst</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Open Sans', sans-serif;
+      background: #fff;
+      color: #222;
+      display: flex;
+      min-height: 100vh;
+    }
+    .sidebar {
+      width: 30%;
+      background: #f7f7f7;
+      padding: 2rem;
+      box-sizing: border-box;
+      border-right: 2px solid #e0e0e0;
+    }
+    .main {
+      width: 70%;
+      padding: 2rem 3rem;
+      box-sizing: border-box;
+    }
+    h1 {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 32px;
+      font-weight: 700;
+      margin: 0;
+    }
+    h2 {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 13px;
+      text-transform: uppercase;
+      margin-top: 1.5rem;
+      margin-bottom: 0.4rem;
+      color: #333;
+    }
+    h3 {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 12px;
+      margin-bottom: 0.3rem;
+      color: #222;
+    }
+    p, li {
+      font-size: 11pt;
+      line-height: 1.4;
+      margin: 0.25rem 0;
+    }
+    ul {
+      list-style: none;
+      padding-left: 0;
+      margin: 0;
+    }
+    li::before {
+      content: "• ";
+      color: #444;
+    }
+    .section {
+      margin-bottom: 1.2rem;
+    }
+    .header {
+      margin-bottom: 1.5rem;
+    }
+    .job {
+      margin-bottom: 1rem;
+    }
+    @media (max-width: 800px) {
+      body { flex-direction: column; }
+      .sidebar, .main { width: 100%; border: none; }
+    }
+  </style>
+</head>
+<body>
+  <div class="sidebar">
+    <div class="header">
+      <h1>SUJITH<br>NAIR</h1>
+      <p>Data Analyst Intern</p>
+    </div>
 
-<!-- Interactive Section Navigation -->
-<style>
-  .nav-container {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    margin: 20px 0;
-    flex-wrap: wrap;
-  }
-  
-  .nav-box {
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-    color: white;
-    padding: 12px 24px;
-    text-decoration: none;
-    border-radius: 8px;
-    font-weight: 500;
-    transition: all 0.3s ease;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-    border: none;
-    cursor: pointer;
-  }
-  
-  .nav-box:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 6px 16px rgba(0,0,0,0.2);
-    text-decoration: none;
-    color: white;
-  }
-  
-  .nav-box:active {
-    transform: translateY(0);
-  }
-  
-  html {
-    scroll-behavior: smooth;
-  }
-</style>
+    <div class="section">
+      <h2>Details</h2>
+      <p><a href="mailto:sujithnair1991@gmail.com">sujithnair1991@gmail.com</a></p>
+      <p>Authorized to work up to 25 hours/week in New Zealand on a student visa</p>
+    </div>
 
-<div class="nav-container">
-  <a href="#about" class="nav-box">About</a>
-  <a href="#projects" class="nav-box">Projects</a>
-  <a href="#contact" class="nav-box">Contact</a>
-  <a href="https://sujithnair1991.github.io/" class="nav-box">Resume</a>
-</div>
+    <div class="section">
+      <h2>Links</h2>
+      <p><a href="https://linkedin.com/in/sujithnairdfw" target="_blank">LinkedIn</a></p>
+      <p><a href="https://github.com/sujithnair1991" target="_blank">GitHub</a></p>
+    </div>
 
-# Sujith Nair
-**Data Analytics Professional | Business Intelligence Specialist**
+    <div class="section">
+      <h2>Skills</h2>
+      <ul>
+        <li>SQL</li>
+        <li>Segmentation & Customer Insights</li>
+        <li>Excel & Google Sheets (Pivot Tables, Lookups)</li>
+        <li>Data Visualization & Storytelling</li>
+        <li>Attribution Modelling</li>
+        <li>A/B Testing & Experiment Design</li>
+        <li>ETL (Informatica, PL/SQL, AWS Redshift)</li>
+        <li>Python & R Coding</li>
+        <li>Statistical Analysis & Forecasting</li>
+        <li>Master Data Management</li>
+        <li>Git / Version Control</li>
+      </ul>
+    </div>
 
-📧 [sujithnair1991@gmail.com](mailto:sujithnair1991@gmail.com) | 🔗 [LinkedIn](https://www.linkedin.com/in/sujithnairdfw/) | 📍 Dallas, TX, USA | 📱 +1 469 380 2630
+    <div class="section">
+      <h2>Hobbies</h2>
+      <p>Creating Google Sheets to help friends and family make financial decisions.</p>
+      <p>Analyzing Fantasy Premier League data and trends.</p>
+    </div>
+  </div>
 
-## Summary {#about}
+  <div class="main">
+    <div class="section">
+      <h2>Profile</h2>
+      <p>Analytical and results-driven Data Analyst with experience across marketing, product, and partnerships. Skilled in uncovering insights that drive measurable business outcomes.</p>
+      <p>Excelled at improving conversion rates and marketing efficiency through segmentation, pricing analysis, and data modeling.</p>
+      <p>Passionate about turning complex data into clear, actionable stories that influence decision-making.</p>
+    </div>
 
-I am an experienced IT and analytics professional with a strong academic foundation in engineering and data science. My 7+ years of industry experience span roles in data engineering, analytics, and business intelligence across India and the US. I hold a Bachelor's degree in Electronics & Communication Engineering and a Master's in Business Analytics from the University of Texas at Dallas. My academic and professional journey reflects my interest in project-driven environments, which motivates me to pursue a Master's in IT Project Management at AUT.
+    <div class="section">
+      <h2>Education</h2>
+      <h3>Masters in IT Project Management, Auckland University of Technology</h3>
+      <p>Auckland | Feb 2026 – Present</p>
+      <p>Focused on IT strategy, project delivery, and data-driven decision-making.</p>
 
-## Education
+      <h3>Masters in Business Analytics, University of Texas at Dallas</h3>
+      <p>Dallas, US | Aug 2018 – May 2020</p>
+      <p>Graduated with a GPA of 3.8 / 4.0; Specialized in Marketing Analytics.</p>
+    </div>
 
-### [Master of Science in Business Analytics](msba-details.md)
-University of Texas at Dallas | July 2018 - May 2020
-• GPA: 3.95/4.00
-• Focus: Advanced analytics, data science, and business intelligence
-• Relevant Coursework: Statistical Analysis, Machine Learning, Data Mining, Business Intelligence
+    <div class="section">
+      <h2>Career Break</h2>
+      <p>Jun 2024 – Dec 2025</p>
+      <p>Used this period to realign career goals, contribute to a small family business, and explore opportunities abroad while maintaining and updating analytical skills.</p>
+    </div>
 
-### Bachelor of Engineering in Electronics and Communication
-Anna University | July 2010 - May 2014
-• GPA: 7.67/10.00
-• Focus: Engineering fundamentals with emphasis on systems and technology
+    <div class="section">
+      <h2>Employment History</h2>
 
-## Professional Experience {#projects}
+      <div class="job">
+        <h3>Product Analyst, Root Insurance — Dallas, US</h3>
+        <p><em>Jan 2021 – May 2024</em></p>
+        <ul>
+          <li>Delivered 25% higher incremental ROAS and $116 K in savings by replacing external attribution vendor with an in-house model.</li>
+          <li>Built Tableau dashboards visualizing funnel trends, spend, and behavior.</li>
+          <li>Partnered with teams to run A/B tests and improved attach rate from 5% → 15%.</li>
+          <li>Managed $2M+ in commissions and streamlined workflows.</li>
+        </ul>
+      </div>
 
-### Senior Product Analyst | Root Insurance
-Dallas, TX, US | Jan 2021 – May 2024
-• Delivered $116K in savings and 25% higher ROAS by replacing an external attribution vendor with an in-house model using open-source tools
-• Built Tableau dashboards and A/B tests to analyse and produce insights with an external partner, improving conversion rates from 5% to 15%
-• Developed a predictive retention model that forecasted an 8% improvement in 180-day customer retention
-• Managed $2M+ in monthly agency commission payouts, streamlining internal workflows
-• Automated SQL and Python-based data extraction pipelines to support analytics workflows
+      <div class="job">
+        <h3>Data Analyst Intern, Essilor — Dallas, US</h3>
+        <p><em>May 2020 – Dec 2020</em></p>
+        <ul>
+          <li>Built Tableau dashboards consolidating SAP customer data, resolving 150+ issues.</li>
+          <li>Developed SQL root-cause tools improving same-day resolution from 12% → 36%.</li>
+        </ul>
+      </div>
 
-### Data Analyst (Contract) | Neiman Marcus Group
-Dallas, TX, US | Oct 2020 – Jan 2021
-• Analysed campaign and product data to inform pricing and merchandising decisions
-• Delivered actionable insights to support marketing and promotional strategy
-
-### Data Analytics Intern | Essilor
-Dallas, TX, US | May 2019 – Dec 2019
-• Cleaned and visualised customer data using SQL and Tableau; resolved 150+ data integrity issues
-• Increased same-day issue resolution from 12% to 36% through automation and diagnostics
-
-### Senior Systems Engineer | Infosys
-Pune, MH, India | Jul 2014 – Apr 2018
-• Managed ETL and Business Intelligence reporting for a global banking client using PL/SQL, Informatica, and Excel
-• Supervised a 3-person offshore team to deliver scalable analytics and dashboarding solutions
-• Conducted workshops and collaborated with stakeholders to define project specifications
-
-## Career Break
-
-### Personal & Professional Development
-Dallas, TX, US | May 2024 - Present
-• After concluding my role at Root Insurance, I chose to take time off to reflect on career direction, support my family, and evaluate future professional and study opportunities
-• Transitioned to dependent visa status (H-4) in the U.S.
-• Consulted on pricing strategy and go-to-market approaches with Shriddhi Oils - a family-owned wellness startup in Kerala, India
-
-## Skills & Tools
-
-### Project Management & Leadership
-• Cross-functional collaboration
-• Stakeholder communication
-• Vendor coordination
-• Team supervision and mentoring
-
-### Technical Skills
-• **Languages & Tools**: SQL, Python, R, Tableau, Power BI, Excel (Advanced)
-• **Analytics & Modeling**: A/B Testing, Forecasting, Customer Segmentation, Regression, Predictive Modeling
-• **Marketing & Financial**: ROI Modeling, Retention Analysis, Pricing Optimization, Commission Analysis
-• **Platforms**: Snowflake, Oracle PL/SQL, Informatica, Mode Analytics
-
-### Core Competencies
-• Business Intelligence & Data Warehousing
-• Data Visualization & Dashboard Development
-• Statistical Analysis & Machine Learning
-• ETL Pipeline Development & Automation
-• Performance Optimization & Cost Reduction
-
-## Let's Connect! {#contact}
-
-• 💼 [LinkedIn](https://www.linkedin.com/in/sujithnairdfw/)
-• 🐙 [GitHub](https://github.com/sujithnair1991)
-• 📧 [Email](mailto:sujithnair1991@gmail.com)
-• 📍 Dallas, TX, USA
-
----
-*This portfolio showcases my professional journey in data analytics and business intelligence. I'm passionate about leveraging data-driven insights to solve complex business problems and drive strategic decision-making.*
+      <div class="job">
+        <h3>System Engineer, Infosys — Pune, India</h3>
+        <p><em>Jul 2014 – Mar 2018</em></p>
+        <ul>
+          <li>Worked on ETL development, data integration, and QA for Wells Fargo.</li>
+          <li>Maintained pipelines supporting analytics and reporting.</li>
+          <li>Improved data accuracy and resolved production issues collaboratively.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
