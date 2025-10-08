@@ -3,178 +3,351 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sujith Nair - Portfolio</title>
+    <title>Sujith Nair - Data Analyst Resume</title>
     <style>
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
-            line-height: 1.6;
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 20px;
-            color: #24292f;
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
         }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            color: #24292f;
+            background: #f6f8fa;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: white;
+            padding: 40px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.12);
+            border-radius: 6px;
+        }
+        
+        .download-section {
+            text-align: center;
+            margin-bottom: 30px;
+            padding: 20px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            border-radius: 8px;
+        }
+        
+        .pdf-button {
+            display: inline-block;
+            background-color: #ffffff;
+            color: #667eea;
+            border: none;
+            padding: 14px 32px;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 16px;
+            font-weight: 600;
+            text-decoration: none;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        
+        .pdf-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+        }
+        
+        .pdf-button::before {
+            content: "📄 ";
+            margin-right: 8px;
+        }
+        
         .header {
             text-align: center;
             margin-bottom: 30px;
+            padding-bottom: 20px;
+            border-bottom: 3px solid #0969da;
         }
-        .pdf-button {
-            background-color: #0969da;
-            color: white;
-            border: none;
-            padding: 10px 20px;
-            border-radius: 6px;
-            cursor: pointer;
-            font-size: 14px;
-            margin: 10px 0;
-            text-decoration: none;
-            display: inline-block;
-        }
-        .pdf-button:hover {
-            background-color: #0860ca;
-        }
-        @media print {
-            .pdf-button { display: none; }
-            body { margin: 0; padding: 15px; font-size: 12px; }
-            h1 { font-size: 20px; }
-            h2 { font-size: 16px; page-break-after: avoid; }
-        }
+        
         h1 {
-            color: #24292f;
-            border-bottom: 1px solid #d1d9e0;
-            padding-bottom: 10px;
-        }
-        h2 {
-            color: #24292f;
-            margin-top: 30px;
-        }
-        .contact-info {
-            text-align: center;
-            margin: 20px 0;
-        }
-        .contact-info a {
+            font-size: 2.5em;
             color: #0969da;
-            text-decoration: none;
-            margin: 0 10px;
+            margin-bottom: 5px;
         }
-        ul {
-            padding-left: 20px;
+        
+        .title {
+            font-size: 1.3em;
+            color: #57606a;
+            font-weight: 500;
         }
-        .experience-item {
+        
+        .section {
+            margin-bottom: 30px;
+        }
+        
+        h2 {
+            font-size: 1.5em;
+            color: #0969da;
+            margin-bottom: 15px;
+            padding-bottom: 8px;
+            border-bottom: 2px solid #d0d7de;
+        }
+        
+        h3 {
+            font-size: 1.2em;
+            color: #24292f;
+            margin-bottom: 5px;
+        }
+        
+        .details, .links {
             margin-bottom: 20px;
         }
+        
+        .details p, .links a {
+            margin: 5px 0;
+        }
+        
+        .links a {
+            color: #0969da;
+            text-decoration: none;
+            margin-right: 15px;
+        }
+        
+        .links a:hover {
+            text-decoration: underline;
+        }
+        
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 10px;
+            margin-top: 10px;
+        }
+        
+        .skills-grid li {
+            margin-left: 20px;
+        }
+        
+        .job {
+            margin-bottom: 25px;
+        }
+        
+        .job-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            flex-wrap: wrap;
+            margin-bottom: 8px;
+        }
+        
         .job-title {
-            font-weight: bold;
-            color: #24292f;
+            font-weight: 600;
+            color: #0969da;
         }
-        .company {
+        
+        .job-location {
+            color: #57606a;
             font-style: italic;
-            color: #656d76;
         }
-        .date {
-            color: #656d76;
-            font-size: 0.9em;
+        
+        .job-date {
+            color: #57606a;
+            font-size: 0.95em;
+        }
+        
+        ul {
+            margin-left: 20px;
+            margin-top: 10px;
+        }
+        
+        li {
+            margin-bottom: 8px;
+        }
+        
+        .profile-text {
+            text-align: justify;
+        }
+        
+        @media print {
+            body {
+                background: white;
+                padding: 0;
+            }
+            .container {
+                box-shadow: none;
+                padding: 20px;
+            }
+            .download-section {
+                display: none;
+            }
+        }
+        
+        @media (max-width: 768px) {
+            .container {
+                padding: 20px;
+            }
+            h1 {
+                font-size: 2em;
+            }
+            .job-header {
+                flex-direction: column;
+            }
         }
     </style>
-    <script>
-        function downloadPDF() {
-            // Hide the button during print
-            const button = document.querySelector('.pdf-button');
-            const originalDisplay = button.style.display;
-            button.style.display = 'none';
-            
-            // Trigger browser print dialog (user can save as PDF)
-            window.print();
-            
-            // Restore button after print dialog closes
-            setTimeout(() => {
-                button.style.display = originalDisplay;
-            }, 1000);
-        }
-    </script>
 </head>
 <body>
-    <div class="header">
-        <h1>Sujith Nair</h1>
-        <button class="pdf-button" onclick="downloadPDF()">📄 Download PDF</button>
-        <div class="contact-info">
-            <a href="mailto:sujithnair1991@gmail.com">sujithnair1991@gmail.com</a>
-            <a href="https://linkedin.com/in/sujithnair1991" target="_blank">LinkedIn</a>
-            <a href="https://github.com/sujithnair1991" target="_blank">GitHub</a>
+    <div class="container">
+        <!-- Download PDF Button -->
+        <div class="download-section">
+            <a href="index.pdf" download="Sujith_Nair_Resume.pdf" class="pdf-button">Download PDF</a>
+        </div>
+        
+        <!-- Header -->
+        <div class="header">
+            <h1>SUJITH NAIR</h1>
+            <p class="title">Data Analyst Intern</p>
+        </div>
+        
+        <!-- Details -->
+        <div class="section details">
+            <h2>DETAILS</h2>
+            <p><strong>EMAIL:</strong> sujithnair1991@gmail.com</p>
+            <p><strong>AUTHORIZATION:</strong> Authorized to work up to 25 hours per week in New Zealand on a student visa</p>
+        </div>
+        
+        <!-- Links -->
+        <div class="section links">
+            <h2>LINKS</h2>
+            <a href="https://www.linkedin.com/in/sujithnair1991" target="_blank">LinkedIn</a>
+            <a href="mailto:sujithnair1991@gmail.com">Email</a>
+            <a href="https://github.com/sujithnair1991" target="_blank">Github</a>
+        </div>
+        
+        <!-- Core Skills -->
+        <div class="section">
+            <h2>SKILLS</h2>
+            <h3>Core Analytics Skills</h3>
+            <ul class="skills-grid">
+                <li>SQL</li>
+                <li>Segmentation & Customer Insights</li>
+                <li>Excel & Google Sheets (Pivot Tables, Lookups, Modeling)</li>
+                <li>Data Visualization & Storytelling</li>
+                <li>Attribution Modelling</li>
+                <li>A/B Testing & Experiment Design</li>
+            </ul>
+            
+            <h3 style="margin-top: 20px;">Technical Tools</h3>
+            <ul class="skills-grid">
+                <li>ETL using Informatica, PL/SQL and AWS Redshift</li>
+                <li>Python and R Coding</li>
+                <li>Project Management</li>
+                <li>Statistical Analysis & Forecasting</li>
+                <li>Master Data Management</li>
+                <li>Git/Version Control</li>
+            </ul>
+        </div>
+        
+        <!-- Profile -->
+        <div class="section">
+            <h2>PROFILE</h2>
+            <p class="profile-text">Analytical and results-driven Data Analyst with experience across marketing, product, and partnerships. Skilled in uncovering insights that drive measurable business outcomes. Excelled at improving conversion rates and marketing efficiency through segmentation, pricing analysis, and data modeling. Passionate about turning complex data into clear, actionable stories that influence decision-making.</p>
+        </div>
+        
+        <!-- Education -->
+        <div class="section">
+            <h2>EDUCATION</h2>
+            <div class="job">
+                <div class="job-header">
+                    <div>
+                        <span class="job-title">Masters in IT Project Management</span>, 
+                        <span class="job-location">Auckland University of Technology, Auckland</span>
+                    </div>
+                    <span class="job-date">Feb 2026 — Present</span>
+                </div>
+                <p>Currently pursuing a Master's focused on IT strategy, project delivery, and data-driven decision-making.</p>
+            </div>
+            
+            <div class="job">
+                <div class="job-header">
+                    <div>
+                        <span class="job-title">Masters in Business Analytics</span>, 
+                        <span class="job-location">University of Texas at Dallas, Dallas, US</span>
+                    </div>
+                    <span class="job-date">Aug 2018 — May 2020</span>
+                </div>
+                <p>Graduated with a GPA of 3.8 / 4.0; Specialized in Marketing Analytics</p>
+            </div>
+        </div>
+        
+        <!-- Career Break -->
+        <div class="section">
+            <h2>CAREER BREAK</h2>
+            <div class="job">
+                <div class="job-header">
+                    <span class="job-date">Jun 2024 — Dec 2025</span>
+                </div>
+                <p>Used this period to realign career goals, contribute to a small family business, and explore opportunities abroad while maintaining and updating analytical skills.</p>
+            </div>
+        </div>
+        
+        <!-- Hobbies -->
+        <div class="section">
+            <h2>HOBBIES</h2>
+            <ul>
+                <li>Creating Google Sheets to help friends and family make financial decisions, including rent versus buy Home, investing versus paying off loans, and planning for financial freedom</li>
+                <li>Analyzing Fantasy Premier League data and trends, sharing insights to support the football fantasy community and build collaborative discussions</li>
+            </ul>
+        </div>
+        
+        <!-- Employment History -->
+        <div class="section">
+            <h2>EMPLOYMENT HISTORY</h2>
+            
+            <div class="job">
+                <div class="job-header">
+                    <div>
+                        <span class="job-title">Product Analyst</span>, 
+                        <span class="job-location">Root Insurance, Dallas, US</span>
+                    </div>
+                    <span class="job-date">Jan 2021 — May 2024</span>
+                </div>
+                <ul>
+                    <li>Delivered 25% higher incremental ROAS and $116K in savings by replacing external attribution vendor with an in-house marketing performance model using open-source tools</li>
+                    <li>Designed and built Tableau dashboards to visualize funnel trends, marketing spend, and customer behavior across channels</li>
+                    <li>Partnered with product, pricing, and marketing teams to run A/B tests and identify drivers of attach rate improvement from 5% to 15%</li>
+                    <li>Reported insights and recommendations to senior leadership to guide campaign strategy and customer segmentation decisions</li>
+                    <li>Managed monthly commission processing for 10 agencies, overseeing $2M+ in payouts and streamlining operational workflows</li>
+                </ul>
+            </div>
+            
+            <div class="job">
+                <div class="job-header">
+                    <div>
+                        <span class="job-title">Data Analyst Intern</span>, 
+                        <span class="job-location">Essilor, Dallas, US</span>
+                    </div>
+                    <span class="job-date">May 2020 — Dec 2020</span>
+                </div>
+                <ul>
+                    <li>Built Tableau dashboards to clean and consolidate SAP Customer Master Data, resolving 150+ issues across 6,300 records</li>
+                    <li>Developed SQL-based root cause analysis tools, improving same-day issue resolution from 12% to 36%</li>
+                </ul>
+            </div>
+            
+            <div class="job">
+                <div class="job-header">
+                    <div>
+                        <span class="job-title">System Engineer</span>, 
+                        <span class="job-location">Infosys, Pune, India</span>
+                    </div>
+                    <span class="job-date">Jul 2014 — Mar 2018</span>
+                </div>
+                <ul>
+                    <li>Worked with a leading US Bank - Wells Fargo - on a client project, focusing on ETL development, data integration, and quality assurance</li>
+                    <li>Gained hands-on experience with SQL, PL/SQL, and Informatica to build and maintain data pipelines supporting reporting and analytics</li>
+                    <li>Collaborated with cross-functional teams to troubleshoot production issues and improve data accuracy across multiple systems</li>
+                </ul>
+            </div>
         </div>
     </div>
-
-    <h2>👨‍💻 About Me</h2>
-    <p>Experienced Software Engineer with expertise in full-stack development, cloud technologies, and system architecture. Passionate about building scalable solutions and leading technical teams.</p>
-
-    <h2>💼 Professional Experience</h2>
-    <div class="experience-item">
-        <div class="job-title">Senior Software Engineer</div>
-        <div class="company">Tech Company</div>
-        <div class="date">2020 - Present</div>
-        <ul>
-            <li>Led development of scalable web applications serving 100k+ users</li>
-            <li>Architected microservices infrastructure using AWS and Docker</li>
-            <li>Mentored junior developers and established coding standards</li>
-        </ul>
-    </div>
-
-    <div class="experience-item">
-        <div class="job-title">Software Developer</div>
-        <div class="company">Previous Company</div>
-        <div class="date">2018 - 2020</div>
-        <ul>
-            <li>Developed responsive web applications using React and Node.js</li>
-            <li>Implemented CI/CD pipelines and automated testing</li>
-            <li>Collaborated with cross-functional teams in Agile environment</li>
-        </ul>
-    </div>
-
-    <h2>🛠️ Technical Skills</h2>
-    <ul>
-        <li><strong>Programming Languages:</strong> JavaScript, Python, Java, TypeScript</li>
-        <li><strong>Frontend:</strong> React, Vue.js, HTML5, CSS3, Tailwind CSS</li>
-        <li><strong>Backend:</strong> Node.js, Express.js, Django, Spring Boot</li>
-        <li><strong>Databases:</strong> PostgreSQL, MongoDB, Redis</li>
-        <li><strong>Cloud & DevOps:</strong> AWS, Docker, Kubernetes, Jenkins, GitHub Actions</li>
-        <li><strong>Tools:</strong> Git, VS Code, Postman, Figma</li>
-    </ul>
-
-    <h2>🎓 Education</h2>
-    <div class="experience-item">
-        <div class="job-title">Bachelor of Technology in Computer Science</div>
-        <div class="company">University Name</div>
-        <div class="date">2014 - 2018</div>
-    </div>
-
-    <h2>🚀 Featured Projects</h2>
-    <div class="experience-item">
-        <div class="job-title">E-commerce Platform</div>
-        <ul>
-            <li>Built full-stack e-commerce solution with React and Node.js</li>
-            <li>Integrated payment processing and inventory management</li>
-            <li>Deployed on AWS with auto-scaling capabilities</li>
-        </ul>
-    </div>
-
-    <div class="experience-item">
-        <div class="job-title">Task Management System</div>
-        <ul>
-            <li>Developed collaborative task management application</li>
-            <li>Implemented real-time updates using WebSocket</li>
-            <li>Created mobile-responsive design with modern UI/UX</li>
-        </ul>
-    </div>
-
-    <h2>🏆 Achievements</h2>
-    <ul>
-        <li>AWS Certified Solutions Architect</li>
-        <li>Led team that reduced application load time by 40%</li>
-        <li>Contributed to open-source projects with 500+ GitHub stars</li>
-        <li>Speaker at local tech meetups and conferences</li>
-    </ul>
-
-    <footer style="margin-top: 50px; text-align: center; color: #656d76; font-size: 0.9em;">
-        <p>© 2025 Sujith Nair. All rights reserved.</p>
-    </footer>
 </body>
 </html>
