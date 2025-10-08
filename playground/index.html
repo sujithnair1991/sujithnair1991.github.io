@@ -5,108 +5,155 @@
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>Sujith Nair — Resume</title>
 
-  <!-- Google fonts -->
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
 
   <style>
-    /* Reset & base */
     *, *::before, *::after { box-sizing: border-box; }
-    html,body { height: 100%; margin:0; background:#ffffff; color:#222; -webkit-font-smoothing:antialiased; }
-    body { font-family: "Open Sans", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial; padding: 18px; }
+    html, body { margin: 0; padding: 0; height: 100%; }
+    body { font-family: "Open Sans", sans-serif; background: #fff; color: #222; -webkit-font-smoothing: antialiased; }
 
-    /* Container approximating an A4-like print area for better PDF export */
-    .paper {
-      max-width: 900px;           /* adjust for on-screen sizing */
+    .container {
+      width: 100%;
+      max-width: 900px;
       margin: 12px auto;
-      background: #fff;
-      padding: 18px;
+      padding: 16px;
     }
 
-    /* Layout */
-    .grid { display:flex; gap: 28px; align-items:flex-start; }
-    .sidebar { width: 30%; padding-right: 8px; border-right: 1px solid #e3e3e3; }
-    .main { width: 70%; padding-left: 12px; }
+    .columns {
+      display: flex;
+      align-items: flex-start;
+    }
 
-    /* Header / name */
+    .sidebar {
+      flex: 0 0 30%;
+      padding-right: 20px;
+      border-right: 1px solid #ddd;
+    }
+
+    .main {
+      flex: 1 1 70%;
+      padding-left: 24px;
+    }
+
     .name {
       font-family: "Montserrat", sans-serif;
-      font-weight: 700;
       font-size: 34px;
-      letter-spacing: 1px;
-      margin: 2px 0 8px 0;
-      line-height: 1;
+      font-weight: 700;
+      line-height: 1.1;
+      margin: 0 0 6px 0;
     }
+
     .title {
-      font-family: "Open Sans", sans-serif;
-      font-weight: 600;
-      margin: 0 0 10px 0;
       font-size: 12px;
+      font-weight: 600;
+      margin: 0 0 14px 0;
       color: #333;
     }
 
-    /* Section headings */
+    .section {
+      margin-bottom: 18px;
+    }
+
     .section-title {
       font-family: "Montserrat", sans-serif;
       font-size: 12px;
       text-transform: uppercase;
-      margin: 12px 0 6px;
+      margin: 12px 0 8px;
       color: #111;
-      letter-spacing: .6px;
+      letter-spacing: 0.8px;
     }
 
-    p, li { font-size: 11pt; line-height: 1.35; margin: 4px 0; color: #222; }
-    ul { margin: 6px 0 0 0; padding-left: 0; list-style: none; }
-    ul li { padding-left: 0.4em; position: relative; margin: 6px 0; }
-    ul li::before { content: "•"; position: absolute; left: -0.9em; color: #444; font-size: 12px; top: 0.05em; }
+    p, li {
+      font-size: 10.8pt;
+      line-height: 1.36;
+      margin: 4px 0;
+      color: #222;
+    }
 
-    /* jobs */
-    .job { margin-bottom: 12px; }
-    .job .role { font-weight: 600; font-size: 12.2px; margin-bottom: 2px; }
-    .job .dates { font-style: italic; font-size: 10.5px; color: #333; margin-bottom: 6px; }
+    ul {
+      margin: 4px 0 0 0;
+      padding-left: 0;
+      list-style: none;
+    }
 
-    /* small helpers for left column condensed lists */
-    .condensed { font-size: 10.8pt; line-height: 1.25; }
-    .link { color: #0563c1; text-decoration: none; word-break: break-all; }
+    ul li {
+      position: relative;
+      padding-left: 1em;
+      margin: 6px 0;
+    }
 
-    /* Print-specific styling to resemble PDF / A4 */
+    ul li::before {
+      content: "•";
+      position: absolute;
+      left: 0;
+      color: #444;
+      font-size: 11px;
+      top: 0;
+    }
+
+    .job {
+      margin-bottom: 14px;
+    }
+
+    .job .role {
+      font-weight: 600;
+      font-size: 12px;
+      margin: 0 0 2px;
+    }
+
+    .job .dates {
+      font-style: italic;
+      font-size: 10.5px;
+      color: #444;
+      margin: 0 0 8px;
+    }
+
+    .condensed {
+      font-size: 10.5pt;
+      line-height: 1.3;
+    }
+
+    a {
+      color: #0563c1;
+      text-decoration: none;
+      word-break: break-word;
+    }
+
     @media print {
-      body { padding: 0; }
-      .paper { max-width: none; width: 210mm; margin: 0; padding: 10mm; }
-      .sidebar { border-right: 1px solid #ddd; }
+      body { margin: 0; }
+      .container { width: 210mm; margin: 0; padding: 15mm; }
+      .sidebar { border-right: 1px solid #ccc; }
       a { color: #000; text-decoration: none; }
-      /* ensure fonts are legible when rendered to PDF */
-      .name { font-size: 36px; }
-      .title { font-size: 11px; }
-      .section-title { font-size: 11px; }
     }
 
-    /* Responsive fallback */
-    @media (max-width: 800px) {
-      .grid { flex-direction: column; }
-      .sidebar, .main { width: 100%; border-right: none; padding: 0; }
-      .paper { padding: 16px; }
+    @media (max-width: 768px) {
+      .columns { flex-direction: column; }
+      .sidebar {
+        border-right: none;
+        padding-right: 0;
+      }
+      .main { padding-left: 0; margin-top: 24px; }
     }
   </style>
-</head>
 
+</head>
 <body>
-  <div class="paper" role="main">
-    <div class="grid">
-      <!-- LEFT: sidebar -->
-      <aside class="sidebar" aria-label="Contact and skills">
+  <div class="container">
+    <div class="columns">
+      <aside class="sidebar">
         <div class="name">SUJITH<br>NAIR</div>
         <div class="title">Data Analyst Intern</div>
 
         <div class="section">
           <div class="section-title">Details</div>
-          <p class="condensed"><a class="link" href="mailto:sujithnair1991@gmail.com">sujithnair1991@gmail.com</a></p>
+          <p class="condensed"><a href="mailto:sujithnair1991@gmail.com">sujithnair1991@gmail.com</a></p>
           <p class="condensed">Authorized to work up to 25 hours per week in New Zealand on a student visa</p>
         </div>
 
         <div class="section">
           <div class="section-title">Links</div>
-          <p class="condensed"><a class="link" href="https://www.linkedin.com/in/sujithnairdfw" target="_blank">linkedin.com/in/sujithnairdfw</a></p>
-          <p class="condensed"><a class="link" href="https://github.com/sujithnair1991" target="_blank">github.com/sujithnair1991</a></p>
+          <p class="condensed"><a href="https://linkedin.com/in/sujithnairdfw" target="_blank">linkedin.com/in/sujithnairdfw</a></p>
+          <p class="condensed"><a href="https://github.com/sujithnair1991" target="_blank">github.com/sujithnair1991</a></p>
         </div>
 
         <div class="section">
@@ -121,19 +168,18 @@
             <li>ETL (Informatica, PL/SQL, AWS Redshift)</li>
             <li>Python & R</li>
             <li>Statistical Analysis & Forecasting</li>
-            <li>Master Data Management & Git</li>
+            <li>Master Data Management & Version Control</li>
           </ul>
         </div>
 
         <div class="section">
           <div class="section-title">Hobbies</div>
-          <p class="condensed">Creating Google Sheets to help friends & family with financial decisions.</p>
+          <p class="condensed">Creating Google Sheets to help friends and family with financial decisions.</p>
           <p class="condensed">Analyzing Fantasy Premier League data & trends.</p>
         </div>
       </aside>
 
-      <!-- RIGHT: main content -->
-      <section class="main" aria-label="Resume content">
+      <section class="main">
         <div class="section">
           <div class="section-title">Profile</div>
           <p>Analytical and results-driven Data Analyst with experience across marketing, product, and partnerships. Skilled in uncovering insights that drive measurable business outcomes. Excelled at improving conversion rates and marketing efficiency through segmentation, pricing analysis, and data modeling. Passionate about turning complex data into clear, actionable stories that influence decision-making.</p>
@@ -141,24 +187,21 @@
 
         <div class="section">
           <div class="section-title">Education</div>
-          <div>
-            <div class="job">
-              <div class="role">Masters in IT Project Management — Auckland University of Technology</div>
-              <div class="dates">Auckland | Feb 2026 – Present</div>
-              <p class="condensed">Currently pursuing a Master’s focused on IT strategy, project delivery, and data-driven decision-making.</p>
-            </div>
-
-            <div class="job">
-              <div class="role">Masters in Business Analytics — University of Texas at Dallas</div>
-              <div class="dates">Dallas, US | Aug 2018 – May 2020</div>
-              <p class="condensed">Graduated with a GPA of 3.8 / 4.0; Specialized in Marketing Analytics.</p>
-            </div>
+          <div class="job">
+            <div class="role">Masters in IT Project Management — Auckland University of Technology</div>
+            <div class="dates">Feb 2026 – Present | Auckland</div>
+            <p class="condensed">Currently pursuing a Master’s focused on IT strategy, project delivery, and data-driven decision making.</p>
+          </div>
+          <div class="job">
+            <div class="role">Masters in Business Analytics — University of Texas at Dallas</div>
+            <div class="dates">Aug 2018 – May 2020 | Dallas, US</div>
+            <p class="condensed">Graduated with a GPA of 3.8 / 4.0; Specialized in Marketing Analytics.</p>
           </div>
         </div>
 
         <div class="section">
           <div class="section-title">Career Break</div>
-          <p class="condensed">Jun 2024 – Dec 2025 — Used this period to realign career goals, contribute to a small family business, and explore opportunities abroad while maintaining and updating analytical skills.</p>
+          <p class="condensed">Jun 2024 – Dec 2025 — Used this period to realign career goals, contribute to a small family business, and explore opportunities abroad, while maintaining and updating analytical skills.</p>
         </div>
 
         <div class="section">
@@ -169,9 +212,9 @@
             <div class="dates">Jan 2021 – May 2024</div>
             <ul>
               <li>Delivered 25% higher incremental ROAS and $116K in savings by replacing external attribution vendor with an in-house marketing performance model.</li>
-              <li>Designed and built Tableau dashboards to visualize funnel trends, marketing spend and customer behavior.</li>
-              <li>Partnered with product and marketing teams to run A/B tests and identify drivers of attach rate improvement (5% → 15%).</li>
-              <li>Managed monthly commission processing for 10+ agencies and streamlined $2M+ payout workflows.</li>
+              <li>Designed & built Tableau dashboards to visualize funnel trends, spend, and customer behavior.</li>
+              <li>Partnered with product, pricing & marketing teams to run A/B tests and improve attach rate from 5% to 15%.</li>
+              <li>Managed commission processing for 10+ agencies and streamlined $2M+ payout workflows.</li>
             </ul>
           </div>
 
@@ -179,8 +222,8 @@
             <div class="role">Data Analyst Intern — Essilor (Dallas, US)</div>
             <div class="dates">May 2020 – Dec 2020</div>
             <ul>
-              <li>Built Tableau dashboards to clean and consolidate SAP Customer Master Data; resolved 150+ issues across 6,300 records.</li>
-              <li>Developed SQL-based root cause analysis tools improving same-day issue resolution from 12% to 36%.</li>
+              <li>Built Tableau dashboards consolidating SAP customer master data; resolved 150+ data issues across 6,300 records.</li>
+              <li>Developed SQL-based root cause analysis tools, improving same-day resolution from 12% to 36%.</li>
             </ul>
           </div>
 
@@ -188,8 +231,8 @@
             <div class="role">System Engineer — Infosys (Pune, India)</div>
             <div class="dates">Jul 2014 – Mar 2018</div>
             <ul>
-              <li>Worked on ETL development, data integration and QA for a leading US bank (Wells Fargo).</li>
-              <li>Built and maintained SQL & Informatica pipelines supporting reporting and analytics.</li>
+              <li>Worked on ETL development, data integration, and QA for a leading US bank (Wells Fargo).</li>
+              <li>Built and maintained data pipelines supporting reporting & analytics.</li>
             </ul>
           </div>
 
