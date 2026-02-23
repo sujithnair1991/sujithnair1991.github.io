@@ -1,354 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sujith Nair - Data Analyst Resume</title>
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-        
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
-            line-height: 1.6;
-            color: #24292f;
-            background: #f6f8fa;
-            padding: 20px;
-        }
-        
-        .container {
-            max-width: 900px;
-            margin: 0 auto;
-            background: white;
-            padding: 40px;
-            box-shadow: 0 1px 3px rgba(0,0,0,0.12);
-            border-radius: 6px;
-        }
-        
-        .download-section {
-            text-align: center;
-            margin-bottom: 30px;
-            padding: 20px;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            border-radius: 8px;
-        }
-        
-        .pdf-button {
-            display: inline-block;
-            background-color: #ffffff;
-            color: #667eea;
-            border: none;
-            padding: 14px 32px;
-            border-radius: 6px;
-            cursor: pointer;
-            font-size: 16px;
-            font-weight: 600;
-            text-decoration: none;
-            transition: all 0.3s ease;
-            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-        }
-        
-        .pdf-button:hover {
-            transform: translateY(-2px);
-            box-shadow: 0 6px 12px rgba(0,0,0,0.15);
-        }
-        
-        .pdf-button::before {
-            content: "📄 ";
-            margin-right: 8px;
-        }
-        
-        .header {
-            text-align: center;
-            margin-bottom: 30px;
-            padding-bottom: 20px;
-            border-bottom: 3px solid #0969da;
-        }
-        
-        h1 {
-            font-size: 2.5em;
-            color: #0969da;
-            margin-bottom: 5px;
-        }
-        
-        .title {
-            font-size: 1.3em;
-            color: #57606a;
-            font-weight: 500;
-        }
-        
-        .section {
-            margin-bottom: 30px;
-        }
-        
-        h2 {
-            font-size: 1.5em;
-            color: #0969da;
-            margin-bottom: 15px;
-            padding-bottom: 8px;
-            border-bottom: 2px solid #d0d7de;
-        }
-        
-        h3 {
-            font-size: 1.2em;
-            color: #24292f;
-            margin-bottom: 5px;
-        }
-        
-        .details, .links {
-            margin-bottom: 20px;
-        }
-        
-        .details p, .links a {
-            margin: 5px 0;
-        }
-        
-        .links a {
-            color: #0969da;
-            text-decoration: none;
-            margin-right: 15px;
-        }
-        
-        .links a:hover {
-            text-decoration: underline;
-        }
-        
-        .skills-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            gap: 10px;
-            margin-top: 10px;
-        }
-        
-        .skills-grid li {
-            margin-left: 20px;
-        }
-        
-        .job {
-            margin-bottom: 25px;
-        }
-        
-        .job-header {
-            display: flex;
-            justify-content: space-between;
-            align-items: baseline;
-            flex-wrap: wrap;
-            margin-bottom: 8px;
-        }
-        
-        .job-title {
-            font-weight: 600;
-            color: #0969da;
-        }
-        
-        .job-location {
-            color: #57606a;
-            font-style: italic;
-        }
-        
-        .job-date {
-            color: #57606a;
-            font-size: 0.95em;
-        }
-        
-        ul {
-            margin-left: 20px;
-            margin-top: 10px;
-        }
-        
-        li {
-            margin-bottom: 8px;
-        }
-        
-        .profile-text {
-            text-align: justify;
-        }
-        
-        @media print {
-            body {
-                background: white;
-                padding: 0;
-            }
-            .container {
-                box-shadow: none;
-                padding: 20px;
-            }
-            .download-section {
-                display: none;
-            }
-        }
-        
-        @media (max-width: 768px) {
-            .container {
-                padding: 20px;
-            }
-            h1 {
-                font-size: 2em;
-            }
-            .job-header {
-                flex-direction: column;
-            }
-        }
-    </style>
-</head>
-<body>
-    <div class="container">
-        <!-- Download PDF Button -->
-        <div class="download-section">
-            <a href="index.pdf" download="Sujith_Nair_Resume.pdf" class="pdf-button">Download PDF</a>
-        </div>
-        
-        <!-- Header -->
-        <div class="header">
-            <h1>SUJITH NAIR</h1>
-            <p class="title">Data Analytics Professional seeking Part-Time Roles and Internships</p>
-        </div>
-        
-        <!-- Work Authorization -->
-        <div class="section details">
-            <h2>WORK AUTHORISATION AND WORK LOCATION</h2>
-            <p><strong>Authorised to work up to 25 hours per week in New Zealand on a student visa</strong> </p>
-            <p>Based in Auckland while studying at AUT; open to remote roles</p>
-        </div>
-        
-        <!-- Links -->
-        <div class="section links">
-            <h2>LINKS</h2>
-            <a href="mailto:sujithnair1991@gmail.com">Email: sujithnair1991@gmail.com</a>
-            <a href="https://www.linkedin.com/in/sujithnair1991" target="_blank">LinkedIn</a>
-            <a href="https://github.com/sujithnair1991" target="_blank">Github</a>
-        </div>
-
-         <!-- Profile -->
-        <div class="section">
-            <h2>PROFILE</h2>
-            <p class="profile-text">Analytical and results-driven Data Analyst with experience in marketing, product, and partnership analytics. Skilled at uncovering insights that drive measurable business outcomes. Proven record of improving conversion rates and marketing efficiency through segmentation, pricing analysis, and data modeling. Passionate about turning complex data into clear, actionable stories that influence decision-making.</p>
-        </div>
-        
-        <!-- Skills -->
-        <div class="section">
-            <h2>SKILLS</h2>
-            <h3>Core Tools and Competencies</h3>
-            <ul class="skills-grid">
-                <li>SQL</li>
-                <li>Segmentation & Customer Insights</li>
-                <li>Excel & Google Sheets (Pivot Tables, Lookups, Modelling)</li>
-                <li>Data Visualisation & Storytelling</li>
-                <li>Attribution Modelling</li>
-                <li>A/B Testing & Experiment Design</li>
-            </ul>
-            
-            <h3 style="margin-top: 20px;">Secondary Tools and Competencies</h3>
-            <ul class="skills-grid">
-                <li>ETL using Informatica, PL/SQL, AWS Redshift</li>
-                <li>Python and R Coding</li>
-                <li>Project Management</li>
-                <li>Statistical Analysis & Forecasting</li>
-                <li>Master Data Management</li>
-                <li>Git/Version Control</li>
-            </ul>
-        </div>
-        
-       
-        
-        <!-- Education -->
-        <div class="section">
-            <h2>EDUCATION</h2>
-            <div class="job">
-                <div class="job-header">
-                    <div>
-                        <span class="job-title">Masters in IT Project Management</span>, 
-                        <span class="job-location">Auckland University of Technology, Auckland</span>
-                    </div>
-                    <span class="job-date">Feb 2026 — Present</span>
-                </div>
-                <p>Currently pursuing a Master's focused on IT strategy, project delivery, and data-driven decision-making.</p>
-            </div>
-            
-            <div class="job">
-                <div class="job-header">
-                    <div>
-                        <span class="job-title">Masters in Business Analytics</span>, 
-                        <span class="job-location">University of Texas at Dallas, Dallas, US</span>
-                    </div>
-                    <span class="job-date">Aug 2018 — May 2020</span>
-                </div>
-                <p>Graduated with a GPA of 3.8 / 4.0; Specialised in Marketing Analytics</p>
-            </div>
-        </div>
-        
-        <!-- Career Break -->
-        <div class="section">
-            <h2>CAREER BREAK</h2>
-            <div class="job">
-                <div class="job-header">
-                    <span class="job-date">Jun 2024 — Dec 2025</span>
-                </div>
-                <p>Used this period to realign career goals, contribute to a small family business, and explore educational opportunities in New Zealand while maintaining and updating analytical skills.</p>
-            </div>
-        </div>
-        
-        <!-- Employment History -->
-        <div class="section">
-            <h2>EMPLOYMENT HISTORY</h2>
-            
-            <div class="job">
-                <div class="job-header">
-                    <div>
-                        <span class="job-title">Data Analyst</span>, 
-                        <span class="job-location">Root Insurance, Dallas, US</span>
-                    </div>
-                    <span class="job-date">Jan 2021 — May 2024</span>
-                </div>
-                <ul>
-                    <li>Delivered 25% higher incremental ROAS and $116K in savings by replacing external attribution vendor with an in-house marketing performance model using open-source tools</li>
-                    <li>Designed Tableau dashboards to visualise funnel trends, marketing spend, and customer behaviour across channels</li>
-                    <li>Partnered with product, pricing, and marketing teams to run A/B tests and identify drivers of attach rate improvement from 5% to 15%</li>
-                    <li>Reported insights and recommendations to senior leadership to guide campaign strategy and customer segmentation decisions</li>
-                    <li>Managed monthly commission processing for 10 agencies, overseeing $2M+ in payouts and streamlining operational workflows</li>
-                </ul>
-            </div>
-            
-            <div class="job">
-                <div class="job-header">
-                    <div>
-                        <span class="job-title">Data Analyst Intern</span>, 
-                        <span class="job-location">Essilor, Dallas, US</span>
-                    </div>
-                    <span class="job-date">May 2020 — Dec 2020</span>
-                </div>
-                <ul>
-                    <li>Built Tableau dashboards to clean and consolidate SAP Customer Master Data, resolving 150+ issues across 6,300 records</li>
-                    <li>Developed SQL-based root cause analysis tools, improving same-day issue resolution from 12% to 36%</li>
-                </ul>
-            </div>
-            
-            <div class="job">
-                <div class="job-header">
-                    <div>
-                        <span class="job-title">System Engineer</span>, 
-                        <span class="job-location">Infosys, Pune, India</span>
-                    </div>
-                    <span class="job-date">Jul 2014 — Mar 2018</span>
-                </div>
-                <ul>
-                    <li>Worked with a leading US Bank - Wells Fargo - on a client project, focusing on ETL development, data integration, and quality assurance</li>
-                    <li>Gained hands-on experience with SQL, PL/SQL, and Informatica to build and maintain data pipelines supporting reporting and analytics</li>
-                    <li>Collaborated with cross-functional teams to troubleshoot production issues and improve data accuracy across multiple systems</li>
-                </ul>
-            </div>
-        </div>
-<!-- Hobbies -->
-        <div class="section">
-            <h2>HOBBIES</h2>
-            <ul>
-                <li>Creating Google Sheets to help friends and family make financial decisions, like rent versus buying a home, investing versus paying off loans, and planning for financial freedom</li>
-                <li>Analysing Fantasy Premier League data and trends, sharing insights to support the football fantasy community and build collaborative discussions</li>
-            </ul>
-        </div>
-    </div>
-</body>
-</html>
+  <meta charset="UTF-8">
+  <title>Sujith Nair - Data Analyst CV</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Data Analyst CV and portfolio for Sujith Nair, Auckland, New Zealand.">
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      max-width: 850px;
+      margin: 0 auto;
+      padding: 2rem 1rem 4rem;
+      line-height: 1.6;
+      color: #222;
+    }
+    h1, h2, h3 {
+      font-weight: 600;
+      margin-top: 1.8rem;
+      margin-bottom: 0.6rem;
+    }
+    h1 {
+      text-align: center;
+      margin-bottom: 0.2rem;
+    }
+    h2 {
+      border-bottom: 1px solid #ddd;
+      padding-bottom: 0.2rem;
+    }
+    .contact, .meta {
+      text-align: center;
+      font-size: 0.95rem;
+      color: #555;
+    }
+    .contact a {
+      color: #0366d6;
+      text-decoration: none;
+    }
+    .contact a:hover {
+      text-decoration: underline;
+    }
+    .btn {
+      display: inline-block;
+      padding: 0.5rem 1.1rem;
+      margin: 0.25rem 0.35rem;
+      font-size: 0.95rem;
+      border-radius: 4px;
+      border: 1px solid #0366d6;
+      color: #0366d6;
+      text-decoration: none;
+      background: #f5f9ff;
+    }
+    .btn:hover {
+      background: #e6f1ff;
+    }
+    ul {
+      padding-left: 1.1rem;
