@@ -4,7 +4,14 @@
 
 🔗 [Portfolio](https://sujithnair1991.github.io/)
 
-📧 sujithnair1991@gmail.com | 🔗 [LinkedIn](https://www.linkedin.com/in/sujithnairdfw/) | 📍 Dallas, TX, USA | 📱 +1 469 380 2630
+## Currently
+
+- Master's student in IT Project Management at AUT (Feb 2026–Nov 2026).
+- Paper: ENSE880 – Agile Project Management (Dr Ramesh Lal).
+- Actively maintaining:
+  - [ENSE880 Learning Journal](https://github.com/sujithnair1991/ense880-learning-journal)
+  - [MIT Projects & Career Log](https://github.com/sujithnair1991/mit-projects-and-career)
+
 
 ---
 
